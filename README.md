@@ -39,6 +39,7 @@ An ASCII art game engine built from scratch in C++20, including two sample games
     - Modern C++ module system for performance and modularity
 
 ## Architecture
+<img width="3120" height="1491" alt="uml" src="https://github.com/user-attachments/assets/68d6808e-4e7b-47f4-b5ae-86cfa9ebe08a" />
 
 The engine follows a strict MVC (Model-View-Controller) architecture to separate general engine responsibilities and promote low coupling and high cohesion. The `Engine` class acts as the concrete `Model` that coordinates all subsystems, while `CursesView` and `CursesController` provide the rendering and input handling respectively.
 
